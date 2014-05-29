@@ -1,0 +1,27 @@
+/* CSS ContactUs Page */
+div.general01 {color:#000; font:normal 12px/18px Arial, Verdana, Helvetica, sans-serif; margin:0;padding:0;}
+div.general01 img, div.general01 table { border:none;}
+div.general01 table td { vertical-align:top;}
+div.general01 a { color:#3b8dbd; outline:none; text-decoration:none;}
+div.general01 a:link, div.general01 a:visited, div.general01 a:active { text-decoration:none; color:#2498d5; outline:none;}
+div.general01 a:hover { color:#f47e00; text-decoration:none; outline:none;}
+
+table.findagent { background-color:#eaf4f7; border:1px solid #c7dbf9; width:100%; }
+ .findagent th { background-color:#d7e9f2; border-top:1px solid #fff; font:bold 14px arial; padding:12px 10px;text-align:left;}
+ .findagent td { border-top:1px solid #e2f4fe; padding:10px; vertical-align:middle; font:normal 12px/18px Arial, Verdana, Helvetica, sans-serif;}
+ .findagent td.apic { font-size:15px; font-weight:bold; }
+ .findagent .tr2 td { background-color:#f3fcff;}
+ .findagent tr td {border-top:1px solid white;}
+ .findagent .status { width:60px; }
+  .findagent img { margin-right:10px; vertical-align:middle;}
+  .findagent .apic img { border:1px solid #fff; }
+  .findagent .agencylink { text-align:left; font-size:15px; font-weight:bold;}
+   .findagent .agencylink a { padding:0; margin:0 3px 0 0; text-align:left;}
+    .findagent .agencylink a img { margin-right:3px;}
+div.general01 a[href^="mailto:"] {display:inline-block; padding-left:20px; line-height:20px; background:transparent url(images/ico-email.png) top left no-repeat;}
+span.phone {display:inline-block; padding-left:20px; line-height:20px; background:transparent url(images/ico-phone.png) top left no-repeat;}
+a.map {display:inline-block; padding-left:20px; line-height:20px; background:transparent url(images/ico-map.png) center left no-repeat;}
+a.directions {display:inline-block; padding-left:20px; line-height:20px; background:transparent url(images/ico-direction.png) center left no-repeat;}
+.small { font:italic 11px/16px arial;}
+.onlinequote a .small { font:normal 12px arial;}
+ .onlinequote a .small strong, .onlinequote a:hover .small strong { color:#393939;}

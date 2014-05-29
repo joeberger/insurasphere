@@ -1,0 +1,10 @@
+.error {
+	color: #BB2445 !important;
+	font-weight: bold !important;
+}
+.missingInput{
+	border: 2px solid red !important;
+	color:#717172 !important; 
+	font: normal 12px arial, sans-serif !important;	
+			
+}

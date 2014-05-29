@@ -1,0 +1,194 @@
+@CHARSET "ISO-8859-1";
+
+.arrowlistmenu {
+
+}
+
+.displayPageTable .gridTable .tableRowOdd{
+ width: 100%;
+}
+
+.idpportlet {
+	/*padding-bottom: 35px;*/
+	margin-bottom: 5px;
+	border: 1px solid buttonFace;
+	/*width:100%;*/
+}
+
+.portletMainSection {
+	padding: 15px;
+	padding-left: 25px;
+	display: block;
+	font: 12px;
+	font-family: arial, sans-serif;
+}
+
+.buttons {
+	float: right;
+	padding: 5px;
+}
+
+.idpportlet .headerbar {
+	font: bold 14px Arial;
+	/*background: url(images/titleBg.png) repeat-x;*/
+	background-color: #3DB0ED;
+	/*margin-bottom: 10px;*/
+	padding: 4px 0 4px 10px;
+	height: 20px;
+}
+
+.arrowlistmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+	/*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li {
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+
+.arrowlistmenu ul li a {
+	color: #A70303;
+	background: url(images/arrowbullet.png) no-repeat center left;
+	/*custom bullet list image*/
+	display: block;
+	padding: 2px 0;
+	padding-left: 19px; /*link text is indented 19px*/
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px solid #dadada;
+	font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited {
+	color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover { /*hover state CSS*/
+	color: #A70303;
+	background-color: #F3F3F3;
+}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #2F455D /*#669*/;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+
+/** for the text prompts for field inputs or fields **/
+.label, .policySummaryFields .label, .claimSummaryFields .label {
+	padding: 3px;
+	margin-left:10px;
+	text-align: left;
+}
+
+.policySummaryFields label, .claimSummaryFields label {
+	width: 150px !important;
+}
+
+.policySummaryFields .labelCell{
+	display:none!important;
+}
+
+
+.claimSummaryFields .outputDataCell{
+	padding-left:0px !important;
+}
+
+.claimSummaryFields .labelCell{
+	display:none!important;
+}
+
+.claimSummaryFields .outputData{
+	width: 300px;
+	font-size:12px;
+}
+
+.policySummaryFields .outputData{
+	width: 300px;
+	font-size:12px;
+}
+
+.outputData{
+	/*border: 2px solid red;*/
+	width: 300px;
+}
+
+.insuredReportLossLanding{	
+	width: 740px;	
+	overflow:hidden;
+}
+
+.insuredReportLossLanding form{	
+	width: 740px;	
+	padding: 0;
+	margin: 0;
+}
+
+.error {
+	color: #BB2445;
+	font-weight: bold;
+}
+
+.userAccountDetails{
+	padding:10px;
+	margin:10px;	
+}
+.userAccountDetails fieldset{
+  background-color:#EBEBEB;	
+  padding: 0px 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}	
+.userAccountDetails legend{
+  font-size:16px;	
+  background-color:white;
+}	
+.userAccountDetails .userAccountFields input{
+	/*margin-left: 20px;*/
+	width:190px;
+}
+
+.userAccountDetails #btn_cancel{
+	float: left;
+	margin-top: 14px !important;	
+	text-decoration: underline;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.userAccountDetails .adminLabel{
+	float:left;
+	width:80px;
+	margin-top: 5px;		
+}
+.userAccountDetails .adminLabel2{
+	/*float:left;*/
+	width:50px;
+	margin-top: 5px;
+	margin-left:40px;
+	margin-right:10px;		
+}
+.userAccountDetails #AgentAccountFields{
+	margin-top: 20px;
+	
+}	

@@ -1,0 +1,20 @@
+/* CSS JOIN OUR TEAM */
+
+#new_quote { color:#000; font:normal 12px/18px Arial, Verdana, Helvetica, sans-serif; }
+.getquote {font-weight:bold;}
+.getquote p label {width: 45%; float: left; text-align: right; font-weight: bold; padding-right: 3px;}
+.getquote p * {width: 30%;}
+fieldset.getquote { margin-bottom: 10px; background: none; border: none;}
+fieldset.getquote legend {background-color: white; border: 1px solid #ECECEC; color: #BB966F; font-size: 16px; font-weight: normal; padding: 4px;}
+#new_quote .bookcnt h2 { padding:0 0 20px; }
+#new_quote .bookcnt{background-color:#f7faff; border:1px solid #c7dbf9; padding:10px; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0; width:700px;}
+#new_quote .thankyoumessage {width: 700px; background-color:#f7faff; border:1px solid #c7dbf9; padding:10px; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0; background: #f7faff; display:none;}
+#new_quote h1 { color:#cb6b25; font:normal 28px/29px Arial, Verdana, Helvetica, sans-serif; margin:0;padding:14px 0 25px 0; text-align:center;}
+#new_quote h2 { color:#717172; font:normal 22px/28px Arial, Verdana, Helvetica, sans-serif; margin:0;padding:0px 0 5px 0; }
+#new_quote p { margin:0; padding:0; }
+#new_quote input, #new_quote select, #new_quote textarea { background:url(images/formbg.jpg) no-repeat; border:1px solid #c7dbf9; }
+#new_quote .address-field { width: 100%;}
+#new_quote .submitcontainer { text-align: right;}
+#new_quote .okcontainer {text-align: center; padding-bottom:5px; clear:both;}
+#new_quote .i-btn:hover, #new_quote .i-btn:focus, #new_quote .btnok:hover, #new_quote .btnok:focus {border-color: #10395F;}
+#new_quote .i-btn, #new_quote .btnok {cursor: pointer; margin-right: 15px; background-color: #1fa5fa; background-image: url("images/btn-bg.jpg"); background-position: left top; background-repeat: repeat-x; border-color: #2F76B9; border-style: solid; border-width: 1px; color: #FFFFFF; font-weight: bold; line-height: 1.7em; text-decoration:none; font-size: 1.2em; padding: 5px 13px 5px; text-align: center !important;}

@@ -1,0 +1,58 @@
+/* CSS GetAQuote Page */
+
+div.general { color:#000; font:normal 12px/18px Arial, Verdana, Helvetica, sans-serif; margin:0;padding:0; width: 700px;}
+div.general img, div.general table { border:none;}
+div.general table td { vertical-align:top;}
+div.general a { color:#3b8dbd; outline:none; text-decoration:none;}
+div.general h2 { color:#bb966f; font:normal 22px/28px Arial, Verdana, Helvetica, sans-serif; margin:0;padding:30px 0 5px 0;}
+div.general h3 { color:#393939; font:normal 17px/22px Arial, Verdana, Helvetica, sans-serif; margin:0;padding:0 0 10px;}
+div.general h4 { color:#7d7d7d; font:normal 14px/18px Arial, Verdana, Helvetica, sans-serif; margin:0;padding:20px 0 0 0; }
+div.general p { margin:0; padding:0 0 10px 0;}
+div.general a:link, div.general a:visited, div.general a:active { text-decoration:none; color:#2498d5; outline:none; }
+div.general a:hover { color:#f47e00; text-decoration:none; outline:none; }
+div.general input, div.general select, div.general textarea { background:url(images/formbg.png) no-repeat; border:1px solid #c7dbf9;}
+
+/* content */
+.bookmrk { height:39px; padding-top:0; float: left; width:225px; position:absolute;}
+ .bookmrk ul { margin:0; padding:0;}
+  .bookmrk li { background:none; float:left; list-style:none; padding: 0 0 2px; width:100%;display: block;margin:0;}
+  .bookmrk li#tab1 { margin-right:2px;}
+   .bookmrk li a { background-color:#eaf4f7; display:block; font:normal 15px/20px Arial, Verdana, Helvetica, sans-serif; text-align:left; border:1px solid #c7dbf9; height:38px; padding: 15px 0 15px 15px; width:206px;
+border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0;margin:0;}
+    .bookmrk li a span { font:normal 14px Arial, Verdana, Helvetica, sans-serif;}
+   .bookmrk li a:hover { background-color:#f9f9f9; color:#2498d5;}
+   .bookmrk li a.selected { background-color:#f7faff; color:#F47E00; height:39px; border-right:0; width: 210px;}
+    .bookmrk li a.selected span { color:#6d6d6d;}
+	.bookmrk li a.checked { background-image: url(images/check-step.png); background-repeat: no-repeat; background-color: #F7FAFF;}
+
+.wizard { background-color:#7fc4e8; font:bold 14px/37px Arial, san-serif; -webkit-border-radius:7px; -moz-border-radius:7px; border-radius:7px; display:inline-block; text-align:center; margin-bottom: 20px; width:700px; height:38px;}
+ .wizard div { float:left; padding:0 5px 0 30px; height:28px; line-height: 28px; margin: 5px 0; position:relative; border:0 none;}
+ .wizard.wide div { margin-left: 25px;}
+ .wizard .step1 { background:url(images/step1.jpg) no-repeat left bottom; color:#cdedfd; margin-left:20px;}
+ .wizard .step2 { background:url(images/step2.jpg) no-repeat left bottom; color:#cdedfd;}
+ .wizard .step3 { background:url(images/step3.jpg) no-repeat left bottom; color:#cdedfd;}
+ .wizard div.selected { color: #fff;  background-position:left top;}
+  .wizard a { color:#cdedfd;}
+.bookcnt { background-color:#f7faff; padding:10px; margin-left: 225px; border:1px solid #c7dbf9; min-height: 347px; display:block;}
+ .bookcnt h2 { padding:10px 0 20px; display: inline-block;}
+.getquote {font-weight:bold;}
+.getquote p label {width: 45%; float: left; text-align: right; font-weight: bold; padding-right: 3px;}
+.getquote p * {width: 30%;}
+fieldset.getquote { margin-bottom: 10px; background: none; border: none;}
+fieldset.getquote legend {background-color: white; border: 1px solid #ECECEC; color: #BB966F; font-size: 16px; font-weight: normal; padding: 4px;}
+
+ /* buttons */
+div.general input.i-btn, div.general .i-btn {background:url(images/btnbg.jpg) repeat-x 0 0; border: 1px solid #3EC6F3; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #000 !important; font: bold 12px arial; margin: 0; padding: 5px 15px;}
+div.general .i-btn:hover {color: #fff !important;cursor: pointer;}
+div.general a.btnnext, div.general a.btnprevious { background:url(images/btnbg.jpg) repeat-x 0 0; border:1px solid #3ec6f3; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; color:#000; font:bold 12px arial; margin:0; padding:5px 15px; display: inline-block;}
+div.general a:-moz-any(.btnnext, .btnprevious) {padding-top: 6px; padding-bottom: 6px;}
+div.general a.btnnext:hover, div.general a.btnprevious:hover { color:#fff;}
+
+/* coverages */
+div.coverages label {font-size:14px; color:#006EA8;}
+div.coverages  {display:block; height:60px;}
+div.coverage {display: inline; float: left; position: relative; vertical-align: top; width: 33%;}
+div.coverages input[type="checkbox"] {float: left;}
+div.coverage label {font-size: 14px;}
+div.coverage img {border: 1px solid #D3D8E0; float: left;}
+div.coverage div {padding-left:57px;}
